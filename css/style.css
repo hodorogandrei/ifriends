@@ -1,0 +1,111 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:700|Exo+2:300,600);
+ 
+/* Solarized Palette - http://ethanschoonover.com/solarized ---------
+  lightgray      : #819090;
+  gray           : #708284;
+  mediumgray     : #536870;
+  darkgray       : #475B62;
+  darkblue       : #0A2933;
+  darkerblue     : #042029;
+  paleryellow    : #FCF4DC;
+  paleyellow     : #EAE3CB;
+  yellow         : #A57706;
+  orange         : #BD3613;
+  red            : #D11C24;
+  pink           : #C61C6F;
+  purple         : #595AB7;
+  blue           : #2176C7;
+  cyan           : #259286;
+  green          : #738A05; */
+ 
+body {
+  font-family: "Exo 2", "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 1.2em;
+  line-height: 2.2em;
+  color: #475B62;
+  text-align: justify;
+}
+
+.logged-in {
+  display: none;
+}
+
+.logged-off {
+  display: block;
+}
+
+.img-circular, .img-circular-friend{
+  display: inline;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  vertical-align: middle;
+  margin: 5px;
+}
+
+
+.img-circular-friend {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+a.remove {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url("../img/remove.png");
+  cursor: pointer;
+  vertical-align: middle;
+  margin-left: 10px;
+  /*float: right;*/
+}
+
+#selFriends {
+  width: 30%;
+}
+
+#selError {
+  color: red;
+}
+
+#waitForResults {
+  width: 220px;
+  height: 19px;
+  background: url("../img/ajax-loader.gif");
+}
+
+.logoutButton, .welcomeText, .welcomeImage {
+  float: right;
+}
+
+.welcomeText {
+  font-size: 16px;
+  line-height: 1em;
+  vertical-align: middle;
+}
+
+.welcomeImage {
+  width: 45px;
+  height: 45px;
+  margin: 0 10px;
+}
+
+.tipue_drop_left img {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  vertical-align: middle;
+
+  width: 60px;
+  height: 60px;
+}
+
+#startOver {
+  display: none;
+}
+
+#tipue_drop_input {
+  width: 204px;
+}
