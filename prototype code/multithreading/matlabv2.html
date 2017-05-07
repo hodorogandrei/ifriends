@@ -1,0 +1,55 @@
+<!DOCTYPE html > 
+<html lang='en'>
+	<head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+		<title>MATLAB Pro</title>
+    <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+	</head>
+	<body style="background-color: #D8D8D8; font-family: 'Oswald', sans-serif;">
+<!-- <img  src="logo.png" style="position: absolute; top: -50px;right: 1px;"> -->
+		
+<input id="loginbut" type="button" value="Login First" onclick="Login();" />
+<p id="notify">Not Logged in.</p><br>
+<p id="ch">Top 10 "Likers" of your content (Comments, posts etc.). Can be set to go back indefinitely.</p>
+<input id="friendbut" type="button" value="Analyse (Slow)" onclick="Status();"/>
+<ol>
+	<li id ="one"></li>
+	<li id ="two"></li>
+	<li id ="three"></li>
+	<li id ="four"></li>
+	<li id ="five"></li>
+  <li id ="six"></li>
+  <li id ="seven"></li>
+  <li id ="eight"></li>
+  <li id ="nine"></li>
+  <li id ="ten"></li>  
+</ol><br>
+<p id="mess">Top 10 people you message via fb chat. Can be set to go back indefinitely. <b>NOT WORKING</b></p> 
+<input id="messagebut" type="button" value="Analyse (Slow)" onclick="Topmessage();"/>
+<ol>
+  <li id ="qone"></li>
+  <li id ="qtwo"></li>
+  <li id ="qthree"></li>
+  <li id ="qfour"></li>
+  <li id ="qfive"></li>
+  <li id ="qsix"></li>
+  <li id ="qseven"></li>
+  <li id ="qeight"></li>
+  <li id ="qnine"></li>
+  <li id ="qten"></li>
+</ol>
+<div id="fb-root"></div>
+<script type="text/javascript" src="facebookapp.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-49522622-1', 'benl007.com');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+</script>
+	</body>
+</html>
+
